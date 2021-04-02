@@ -1,9 +1,40 @@
+:root {
+  --primary-color: #f4a460;
+  --secondary-color: #8b4513;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* BODY STYLING STARTS HERE */
+body {
+  background-color: var(--primary-color) ;
+}
+
+
+/* HEADER AND NAV STYLING STARTS HERE */
+header {
+  text-decoration: none;
+  background-color: black;
+}
+
+header h1 a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+header nav a {
+  color: white;
+  text-align: right;
+}
+/* HEADER AND NAV STYLING STARTS HERE */
+
+/* HERO STYLING STARTS HERE */
 .hero {
   background-image: url("./photos/decolonize-bg.png");
   background-size: cover;
@@ -13,3 +44,9 @@
   padding: 0;
   margin: 0;
 }
+/* HERO STYLING ENDS HERE */
+
+
+
+
+/* BODY STYLING ENDS HERE */
