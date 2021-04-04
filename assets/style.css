@@ -66,7 +66,40 @@ header nav ul li a {
 }
 /* HERO STYLING ENDS HERE */
 
-/* ABOUT STYLING STARTS HERE */
+/* MAIN STYLING STARTS HERE */
+main {
+  padding: 40px;
+  border: 40px;
+}
+
+main section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+main h2 {
+  font-size: 80px;
+  color: rgba(0,0,0,0.1);
+  text-align: right;
+}
+
+main p {
+}
+
+.main-flex-container {
+  display: flex;
+}
+
+.main-flex-title {
+  flex: 1;
+}
+
+.main-flex-text {
+  flex: 1;
+  margin-left: 40px;
+}
 
 /* ABOUT STYLING ENDS HERE */
 
