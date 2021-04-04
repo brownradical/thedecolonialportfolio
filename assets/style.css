@@ -98,7 +98,7 @@ main p {
   padding-right: 20px;
 }
 
-.main-flex-text {
+.main-flex-content {
   flex: 1.2;
   padding-left: 20px;
   border-left: 5px solid black;
@@ -108,11 +108,6 @@ main p {
 }
 
 /* ABOUT SECTION STYLING STARTS HERE */
-
-.about-title {
-display: flex;
-}
-
 .about-photo {
   background-image: url(./photos/about-photo.png);
   background-position: center;
@@ -122,17 +117,21 @@ display: flex;
   flex: 0.8;
 }
 
-.about-subtitle {
+.about-content-title {
+display: flex;
+}
+
+.about-content-subtitle {
   flex: 1.2;
   padding-top: 10%;
   padding-left: 10px;
-
-
 }
 
-/* WORK STYLING STARTS HERE
+/* ABOUT SECTION STYLING STARTS HERE */
 
-/* WORK STYLING ENDS HERE
+/* PROJECTS STYLING STARTS HERE
+
+/* PROJECTS STYLING ENDS HERE
 
 /* CONTACT STYLING STARTS HERE */
 
