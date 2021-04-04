@@ -76,16 +76,16 @@ main section {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  align-items: center;
 }
 
 main h2 {
   font-size: 80px;
   color: rgba(0,0,0,0.1);
-  text-align: right;
+  float: right;
 }
 
 main p {
+  text-align: justify;
 }
 
 .main-flex-container {
@@ -94,11 +94,16 @@ main p {
 
 .main-flex-title {
   flex: 1;
+  padding-right: 20px;
 }
 
 .main-flex-text {
   flex: 1;
-  margin-left: 40px;
+  align-items: center;
+  padding-left: 20px;
+  border-left: 5px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* ABOUT STYLING ENDS HERE */
@@ -119,6 +124,7 @@ main p {
   align-items: center;
   position: sticky;
   bottom: 0;
+  padding-bottom: 20px;
 }
 
 .social-footer ul {
