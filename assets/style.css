@@ -138,34 +138,50 @@ align-items: center;
 .about-content-text {
   display: flex;
 }
+/* ABOUT SECTION STYLING ENDS HERE */
 
-/* ABOUT SECTION STYLING STARTS HERE */
+/* PROJECTS STYLING STARTS HERE */
 .first-project-row {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
-  padding: 10px;
+  padding: 0 0 10px 10px;
 }
 
-.first-project {
-  background-image: url(./photos/first-project.png) ;
+.first-project-image {
+  background-image: url(./photos/first-project.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border: 5px;
   border-style: solid;
-  border-color: black;
+  border-color: transparent;
   border-radius: 15px;
-  margin-right: 5px;
   flex: 1;
   height: 30vh;
+  filter: none;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.first-project-image-text {
+  display: inline-block;
+  padding-right: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0,0,0,0.5);
+  border: 2px;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 15px;
 }
 
 .projects-row-a {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
-  padding: 10px;
+  padding-left: 10px;
 }
 
 .project-1 {
@@ -175,11 +191,12 @@ align-items: center;
   background-repeat: no-repeat;
   border: 5px;
   border-style: solid;
-  border-color: black;
+  border-color: transparent;
   border-radius: 15px;
   margin-right: 5px;
   flex: 1;
   height: 30vh;
+  filter: none;
 }
 
 .project-2 {
@@ -189,13 +206,18 @@ align-items: center;
   background-repeat: no-repeat;
   border: 5px;
   border-style: solid;
-  border-color: black;
+  border-color: transparent;
   border-radius: 15px;
   margin-left: 5px;
   flex: 1;
   height: 30vh;
+  filter: none;
 }
-/* PROJECTS STYLING STARTS HERE
+
+.first-project-image:hover {
+  filter: grayscale(100%);
+}
+
 
 /* PROJECTS STYLING ENDS HERE
 
