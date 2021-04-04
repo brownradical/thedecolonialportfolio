@@ -4,6 +4,7 @@
 }
 
 * {
+  width: auto;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -53,7 +54,7 @@ header nav ul {
 header nav ul li a {
   padding: 10px 15px;
   font-weight: bold;
-  font-size: 2vw;
+  font-size: 2.5vw;
 }
 /* HEADER AND NAV STYLING STARTS HERE */
 
@@ -69,13 +70,12 @@ header nav ul li a {
 
 /* MAIN SECTION STYLING STARTS HERE */
 main {
-  padding: 40px;
+  padding: 10px 15px 10px 10px;
   border: 40px;
 }
 
 main section {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -95,17 +95,15 @@ main p {
 }
 
 .main-flex-title {
-  flex: 0.8;
+  flex: 0.6;
   padding-right: 20px;
 }
 
 .main-flex-content {
-  flex: 1.2;
-  padding-left: 20px;
+  flex: 1.4;
   border-left: 5px solid black;
   margin-top: 10px;
   margin-bottom: 10px;
-
 }
 
 /* ABOUT SECTION STYLING STARTS HERE */
@@ -116,21 +114,57 @@ main p {
   width: 200px;
   height: 200px;
   flex: 0.8;
+  margin-left: 20px;
 }
 
 .about-content-title {
 display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .about-content-subtitle {
   flex: 1.2;
-  padding-top: 10%;
+}
+
+.about-content-subtitle h3 { 
   padding-left: 10px;
 }
+
+.about-content-subtitle h4 {
+  padding-left: 10px;
+}
+
+.about-content-text {
+  display: flex;
+}
+
 /* ABOUT SECTION STYLING STARTS HERE */
+.first-project-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  padding: 10px;
+}
+
+.first-project {
+  background-image: url(./photos/first-project.png) ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
+  margin-right: 5px;
+  flex: 1;
+  height: 30vh;
+}
+
 .projects-row-a {
   display: flex;
   flex-wrap: wrap;
+  align-items: stretch;
   padding: 10px;
 }
 
@@ -139,12 +173,13 @@ display: flex;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-right: 20px;
   border: 5px;
   border-style: solid;
   border-color: black;
-  border-radius: 25px;
+  border-radius: 15px;
+  margin-right: 5px;
   flex: 1;
+  height: 30vh;
 }
 
 .project-2 {
@@ -152,12 +187,13 @@ display: flex;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-right: 20px;
   border: 5px;
   border-style: solid;
   border-color: black;
-  border-radius: 25px;
+  border-radius: 15px;
+  margin-left: 5px;
   flex: 1;
+  height: 30vh;
 }
 /* PROJECTS STYLING STARTS HERE
 
