@@ -17,7 +17,8 @@ body {
 
 /* HEADER AND NAV STYLING STARTS HERE */
 header {
-  padding: 20px 35px;
+  background-color:  white;
+  padding: 15px 30px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -126,9 +127,38 @@ display: flex;
   padding-top: 10%;
   padding-left: 10px;
 }
-
 /* ABOUT SECTION STYLING STARTS HERE */
+.projects-row-a {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
 
+.project-1 {
+  background-image: url(./photos/project-1.png) ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-right: 20px;
+  border: 5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
+  flex: 1;
+}
+
+.project-2 {
+  background-image: url(./photos/project-2.png) ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-right: 20px;
+  border: 5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
+  flex: 1;
+}
 /* PROJECTS STYLING STARTS HERE
 
 /* PROJECTS STYLING ENDS HERE
