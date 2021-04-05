@@ -188,6 +188,18 @@ main p {
 	transition: .3s ease-in-out;
 }
 
+.first-project-image-hyperlink {
+  display: flex;
+  border: 5px;
+  border-style: solid;
+  border-color:transparent;
+  border-radius: 15px;
+  height: 60vh;
+  padding-left: 10px;
+  padding-top: 10px;
+  opacity: 0;
+}
+
 .projects-row-a {
   display: flex;
   flex-wrap: wrap;
@@ -212,6 +224,17 @@ main p {
 	transform: scale(0.90);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
+}
+
+.project-2-image-hyperlink {
+  display: flex;
+  border: 5px;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 15px;
+  margin-right: 5px;
+  height: 30vh;
+  opacity: 0;
 }
 
 .project-3-image {
