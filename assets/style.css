@@ -55,15 +55,15 @@ header nav ul li a {
   padding: 10px 15px;
   font-weight: bold;
   font-size: 2.5vw;
+  transition: 0.3s ease-in-out;
 }
 
 header nav ul li a:hover {
-  color: white;
-  background-color: var(--secondary-color);
-  border: 0.5px;
-  border-style: solid;
-  border-color: var(--secondary-color);
-  border-radius: 15px;
+  text-decoration: line-through;
+  color:rgba(139, 69, 19,0.7) ;
+
+  
+ 
 }
 /* HEADER AND NAV STYLING STARTS HERE */
 
@@ -135,17 +135,28 @@ main p {
   flex: 1.2;
 }
 
-.about-content-subtitle h3 { 
+.about-content-subtitle h3 {
+  font-size: 35px; 
   padding-left: 10px;
 }
 
 .about-content-subtitle h4 {
+  font-size: 25px;
   color: rgba(139, 69, 19,0.7);
   padding-left: 10px;
 }
 
+.about-content-subtitle-answers {
+  color: black;
+}
+
 .about-content-text {
   display: flex;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 31px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 /* ABOUT SECTION STYLING ENDS HERE */
 
@@ -167,7 +178,7 @@ main p {
   border-color: white;
   border-radius: 15px;
   flex: 1;
-  height: 30vh;
+  height: 60vh;
   padding-left: 10px;
   padding-top: 10px;
   transition: box-shadow .3s;
@@ -224,20 +235,11 @@ main p {
 }
 
 .first-project-image:hover, .project-2-image:hover, .project-3-image:hover {
-  box-shadow: 0 0 15px rgba(0,0,0,.4);
+  box-shadow: 0 0 15px rgba(139,69,19,0.5);
   -webkit-transform: scale(1);
 	transform: scale(1);
 }
 /* PROJECTS STYLING ENDS HERE
-
-/* CONTACT STYLING STARTS HERE */
-
-
-
-
-
-/* CONTACT STYLING ENDS HERE */
-
 
 /* FOOTER STYLING STARTS HERE */
 .social-footer {
@@ -247,7 +249,8 @@ main p {
   align-items: center;
   position: sticky;
   bottom: 0;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .social-footer ul {
@@ -267,7 +270,7 @@ main p {
   text-decoration: none;
 }
 
-.social-footee .fa:hover {
+.social-footer .fa:hover {
   color: var(--secondary-color);
   transition: color 0.3s ease-in;
 }
