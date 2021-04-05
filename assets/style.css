@@ -88,7 +88,7 @@ main section {
 }
 
 main h2 {
-  font-size: 80px;
+  font-size: 75px;
   color: rgba(0,0,0,0.1);
   float: right;
 }
@@ -164,7 +164,6 @@ main p {
 .first-project-row {
   display: flex;
   flex-wrap: wrap;
-  align-items: stretch;
   padding: 0 0 10px 10px;
 }
 
@@ -298,6 +297,48 @@ main p {
   transition: color 0.3s ease-in;
 }
 /* FOOTER STLING ENDS HERE */
-
-
 /* BODY STYLING ENDS HERE */
+
+/* MEDIA QUERYS START HERE */
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+
+
+
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  main h2 {
+    font-size: 45px;
+  }
+
+  .about-content-subtitle h3 {
+    font-size: 25px; 
+  }
+  
+  .about-content-subtitle h4 {
+    font-size: 15px;
+  }
+
+  .about-content-text {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  .about-content-subtitle h3 {
+    font-size: 25px; 
+  }
+  
+  .about-content-subtitle h4 {
+    font-size: 15px;
+  }
+
+  .about-content-text {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+/* MEDIA QUERYS END HERE */
